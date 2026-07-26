@@ -1,3 +1,10 @@
+# Smart Methods Task: PHP & MySQL Web App
+
+## 🌐 Live Demo
+You can test the live application here: [mazen.lovestoblog.com](http://mazen.lovestoblog.com)
+
+---
+
 ## 📌 Project Overview
 This is a lightweight web application built using **HTML, CSS, JavaScript, PHP, and MySQL**. It allows users to submit their name and age via a simple form, stores the data in a database, and displays all records in a responsive table. Additionally, it features an asynchronous toggle button to update the status of any record instantly without reloading the page.
 
@@ -20,7 +27,7 @@ This is a lightweight web application built using **HTML, CSS, JavaScript, PHP, 
 - `insert.php`: Handles the form submission (POST request) and inserts new user records into the database.
 - `toggle.php`: A backend endpoint that receives the AJAX request to flip the status (`0` to `1` or vice versa) in the database and returns the new status.
 
-## 🚀 How to Run the Project
+## 🚀 How to Run the Project Local
 1. **Database Setup:**
    - Open your MySQL manager (e.g., phpMyAdmin).
    - Create a database and run the following SQL command to create the required table:
